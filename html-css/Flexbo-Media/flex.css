@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    border: 6px solid red;
+    display: flex;
+    height: 400px;
+    /* flex-direction: row; default value */
+    /* flex-direction: row-reverse; */
+     /*flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap:  nowrap;*/
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: row-reverse wrap; */
+    /* flex-flow: column wrap; */
+    /*flex-flow: column-reverse wrap;*/
+    /*flex-flow: column-reverse wrap reverse;*/
+
+    /*justify-content: flex-start; */
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-evenly;*/
+
+    /*align-items: stretch;*/
+    /*align-items: flex-start;*/
+    /*align-items: center;*/
+    /*align-item: baseline;*/
+
+    /*align-content: stretch;*/
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-around; */
+    /*align-content: space-between; */
+
+}
+.items {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+}   
+
+.item1 {
+    width: 50px;
+    height: 50px;
+}
+
+.item2 {
+    width: 3%;
+    height: 15%;
+}
+
